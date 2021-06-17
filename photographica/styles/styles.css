@@ -1,0 +1,199 @@
+html{
+    font-family: Verdana;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background: #f4f4f7;
+    width: 1600px;
+    height: 880px;
+    margin: 0 auto;
+    text-align: center;
+}
+header h1{
+    width: 700px;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: -0.04em;
+    margin: 0 auto;
+    padding-top: 80px;
+    color: #272425;
+}
+.menu{
+    float:right;
+    padding: 70px;
+    padding-right: 200px;
+}
+.menu a{
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 50px;
+    color: #b6b6ba;
+    padding-right: 20px;
+}
+.gallery{
+    height: 1800px;
+    width: 1600px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+.inline{
+    display: inline-flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 0;
+    margin-left: 193px;
+}
+
+.column img{
+    padding: 10px;
+}
+.column{
+    display: flex;
+    justify-content: center;
+}
+.wrap{
+    padding-top: 30px;
+
+}
+.contact{
+   background-color: #f4f4f7;
+    width: 1600px;
+    height: 658px;
+    margin: 0 auto;
+    color: black;
+}
+.contact .flex{
+    padding-bottom: 50px;
+    padding-left: 200px;
+    height: 400px;
+}
+.contact form{
+    width: 750px;
+
+}
+.contact input{
+    margin: 10px 30px 10px 10px;
+    background: #fefefe;
+    height: 50px;
+    width: 450px;
+    border-radius: 5px;
+}
+.contact input:nth-child(4){
+    background: black;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 0;
+}
+.contact > h1{
+    margin-top: 0;
+    padding: 100px 0 0 220px;
+    font-size: 64px;
+    letter-spacing: -0.04em;
+    font-weight: lighter;
+
+}
+.contact h3{
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 21px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.block{
+    width: 400px;
+    margin-right: 150px;
+    padding-left: 70px;
+}
+.contact .wrap{
+    display: inline-flex;
+    width: 800px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 120px;
+}
+input::placeholder{
+    color: #5b5b5b;
+    text-align: start;
+    padding-bottom: 50px;
+}
+.getInTouch{
+    padding-bottom: 21px;
+}
+.getInTouch h3{
+    padding-left: 10px;
+}
+.evolve{
+    background: url("../images/bg2.png") no-repeat;
+    width: 1600px;
+    height: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.evolve .upper{
+    background-color: #272425;
+    height: 60px;
+}
+.evolve .upper .menu{
+    padding: 5px 100px 0 0;
+    margin: 0;
+}
+.persona{
+    margin-top: 450px;
+    background-color: white;
+    height: 555px;
+    width: 1600px;
+}
+#left{
+    text-align: left;
+    float: left;
+    color: black;
+    width: 511px;
+    margin: 200px;
+}
+#left h1{
+    margin: 0;
+    padding: 0;
+}
+#right{
+    text-align: center;
+    float: right;
+    color: black;
+    width: 150px;
+    margin: 200px;
+    padding-top: 60px;
+}
+.mobile{
+    height: 2500px;
+    width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.phone{
+    padding-top: 100px;
+    height: 1000px;
+    width: 1600px;
+}
+.phone__gallery{
+    display: flex;
+    flex-direction: column;
+
+}
+.phone__row{
+    display: inline-flex;
+    justify-content: center;
+}
+.phone__row:nth-child(2){
+    padding-right: 355px;
+}
+.phone__gallery img{
+    margin: 20px;
+}

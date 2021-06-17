@@ -1,0 +1,213 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, label, p, blockquote, th, td {
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat';
+}
+.header{
+    background-image: url(../images/iphone5.png);
+    background-repeat: no-repeat;
+    width: 1260px;
+    height: 650px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+.baget{
+    float:right;
+}
+
+.texty{
+    width: 400px;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.025em;
+    margin-top: 170px;
+    margin-right: 150px;
+}
+.texty h1{
+    margin-bottom: 50px;
+    font-size: 40px;
+    color: #545454;
+    font-weight: lighter;
+}
+.texty p{
+    margin-top: 30px;
+    width: 500px;
+}
+.dog{
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    width: 1260px;
+    height: 650px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+.contact{
+    background-color: #f4f4f4;
+    width: 1260px;
+    height: 650px;
+    margin: 0 auto;
+}
+.contact .icons{
+    display: inline-block;
+    margin: 250px 0 0 430px;
+}
+.contact .icons a{
+    margin-left: 30px;
+}
+.subForm{
+    display: flex;
+    margin: 70px 0 0 430px;
+
+}
+.subForm p{
+    align-self: center;
+}
+.subForm form{
+    margin-left: 20px;
+}
+#format {
+    padding: 10px 30px 10px 20px;
+    text-align: left;
+    border-radius: 10px;
+    border: 0px;
+}
+.donate{
+    background-image: url(../images/bg2.png);
+    background-repeat: no-repeat;
+    width: 1260px;
+    height: 326px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+.donate div{
+    display: block;
+    width: 1260px;
+    height: 326px;
+}
+.donate h1 {
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 40px;
+}
+footer{
+    width: 1260px;
+    height: 150px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+footer p{
+    padding-top: 75px;
+}
+.ipad{
+    background-image: url(../images/ipad.png);
+
+    background-repeat: no-repeat;
+    width: 1260px;
+    height: 650px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
+
+}
+.ipad h1{
+    position: relative;
+    color: #545454;
+    font-weight: lighter;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.ipad p{
+    position: relative;
+    color: #7e7e7e;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.025em;
+}
+.wrap{
+    width: 730px;
+    height: 260px;
+    padding-left: 100px;
+    padding-top: 170px;
+}
+.head{
+    display: block;
+}
+.middle h1{
+    position: relative;
+    font-family: 'BlackJack', sans-serif;
+    color: white;
+    float: right;
+    font-weight: lighter;
+    font-size: 70px;
+    padding-right: 150px;
+    padding-top: 80px;
+}
+.middle p{
+    position: absolute;
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
+    font-size: 35px;
+    color: white;
+    float: right;
+    font-weight: lighter;
+    margin-top: 200px;
+    margin-left: 330px;
+}
+.button{
+    position: absolute;
+    background: none;
+    border-radius: 6px;
+    display: block;
+    width: 240px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    font-size: 16px;
+    padding: 25px 0 25px 0;
+    font-weight: bolder;
+}
+
+#first__button{
+    margin: 300px 0 0 850px;
+    border: 3px solid white;
+    color: white;
+}
+#second__button{
+    margin: 70px 0 0 100px;
+    border: 3px solid #14af8f;
+    color: #14af8f;
+}
+#third__button{
+    position: relative;
+    margin: 50px auto;
+    border: 3px solid white;
+    color: white;
+}
+#fourth__button{
+    border: 3px solid #ea4c89;
+    margin-top: 20px;
+    color: #ea4c89;
+
+}
+#logo{
+    position: absolute;
+    margin-left: 150px;
+}
+#navig{
+    position: relative;
+    padding-left: 1075px;
+    padding-top: 50px;
+}
+#withLine{
+    border-left: 6px solid #4eacdd;
+    margin-top: 20px;
+    padding-left: 20px;
+}

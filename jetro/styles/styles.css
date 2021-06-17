@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans&display=swap');
+header{
+    width: 1400px;
+    margin: 0 auto;
+}
+h1,h2,h3{
+    font-family: 'Bebas Neue', cursive;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    width: 940px;
+    margin: 0 auto;
+}
+.nav{
+    display: inline-flex;
+    position: relative;
+}
+.nav a{
+    text-decoration: none;
+    margin-right: 30px;
+}
+.nav a p{
+    text-transform: uppercase;
+    color: #b9b9b9;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 0;
+    transition: 0.5s;
+}
+.nav a:last-child{
+    margin-right: 0;
+}
+.sides{
+    position: absolute;
+    display: flex;
+}
+.sides div{
+    background-color: rgba(255,110,0, 0.4);
+    width: 220px;
+    height: 61px;
+    margin-top: 80px;
+}
+header .sides div:first-child{
+    margin-right: 960px;
+}
+.bar{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.bar img{
+    padding-right: 455px;
+}
+.nav a:hover p{
+    color: #ff4500;
+}
+#big{
+    background-image: url(../images/img.png);
+    width: 941px;
+    height: 401px;
+}
+#sub{
+    height: 122px;
+    width: 385px;
+    background-color: rgba(255,110,0, 0.75);
+    padding-left: 25px;
+    padding-top: 3px;
+    position: relative;
+    top: 40px;
+    right: -40px;
+}
+#sub h1, #sub p{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+#sub h1{
+    font-size: 18px;
+    font-weight: normal;
+}
+#sub p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+}
+#buttons{
+    display: flex;
+    width: 900px;
+    padding: 150px 0 0;
+}
+#buttons a:nth-child(1){
+    margin: 0px 800px 0px 35px;
+}
+.line{
+    display: inline-flex;
+}
+.gallery .line{
+    width: 940px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.item:nth-child(2){
+    margin: 0 20px;
+}
+.item h1{
+    width: 300px;
+}
+.item p{
+    font-size: 12px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.item .line{
+    align-items: center;
+    margin-top: 25px;
+}
+.item .line h1{
+    font-family: 'Bebas Neue', cursive;
+    color: #e8663c;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-left: 15px;
+    line-height: 1em;
+}
+.button{
+    display: flex;
+    width: 55px;
+    height: 30px;
+    background-color: #e8663c;
+    justify-content: center;
+    align-items: center;
+}
+.button a{
+    text-decoration: none;
+}
+.button a p{
+    width: 55px;
+    height: 30px;
+    text-align: center;
+    padding-top: 14px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.button a:hover p{
+    color: darkred;
+}
+.who{
+    width: 1400px;
+    margin: 0 auto;
+}
+.works{
+    width: 1400px;
+    margin: 0 auto;
+}
+.works h1{
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    height: 22px;
+}
+.works h1:first-child{
+    color: #e8663c;
+    width: 133px;
+    letter-spacing: 0.1em;
+}
+.works .line{
+    align-items: center;
+    margin: 40px 0 20px 0;
+}
+.works .line:nth-child(2){
+    width: 940px;
+    justify-content: space-between;
+    margin: 0;
+}
+.works .item{
+    width: 220px;
+    height: 245px;
+    margin: 0 0 50px;
+}
+.label{
+    border: 1px solid #dbdbdb;
+    border-top: none;
+}
+.works .label h1{
+    color: #b9b9b9;
+    font-size: 20px;
+    width: auto;
+    margin: 0 0 0 20px;
+    letter-spacing: 0.1em;
+    padding-top: 10px;
+}
+.works .label h3{
+    font-size: 15px;
+    color: #e8663c;
+    margin: 0 0 0 20px;
+    padding-bottom: 10px;
+}
+footer{
+    height: 265px;
+    width: 1400px;
+    margin: 0 auto;
+    color: white;
+}
+footer .wrapper{
+    background-color: #e8663c;
+    height: 265px;
+    margin: 0 auto;
+    position: relative;
+}
+footer .line{
+    width: 940px;
+    height: 265px;
+    margin: 0 auto;
+    align-items: center;
+}
+footer .line .item{
+    width: 320px;
+}
+footer .sides div{
+    height: 265px;
+    margin: 0;
+
+}
+footer .sides div:first-child{
+    margin-right: 960px;
+}
+footer .text{
+    display: block;
+    height: 230px;
+}
+footer .text h1{
+    font-weight: lighter;
+}
+footer .item:nth-child(1){
+    margin-left: 37px;
+    width: 300px;
+}
+footer .item:nth-child(2){
+    margin: 0 40px;
+    width: 220px;
+}
+footer .item:nth-child(3){
+    width: 270px;
+}

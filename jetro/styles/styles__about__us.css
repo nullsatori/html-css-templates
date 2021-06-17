@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans&display=swap');
+header{
+    width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+h1,h2,h3{
+    font-family: 'Bebas Neue', cursive;
+}
+h3{
+    font-size: 18px;
+    margin: 0;
+}
+p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    width: 940px;
+    margin: 0 auto;
+}
+.nav{
+    display: inline-flex;
+    position: relative;
+}
+.nav a{
+    text-decoration: none;
+    margin-right: 30px;
+}
+.nav a p{
+    text-transform: uppercase;
+    color: #b9b9b9;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 0;
+    transition: 0.5s;
+}
+.nav a:last-child{
+    margin-right: 0;
+}
+.sides{
+    position: absolute;
+    display: flex;
+}
+.sides div{
+    background-color: rgba(255,110,0, 0.4);
+    width: 220px;
+    height: 61px;
+    margin-top: 80px;
+}
+header .sides div:first-child{
+    margin-right: 960px;
+}
+.bar{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.bar img{
+    padding-right: 455px;
+}
+.bar:nth-child(2){
+    background-color: orangered;
+    height: 61px;
+}
+.bar h1{
+    color: white;
+    padding-left: 20px;
+}
+.nav a:hover p{
+    color: #ff4500;
+}
+.wrap__about{
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.wrap{
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.row{
+    display: inline-flex;
+    align-items: center;
+}
+.italic{
+    font-style: italic;
+    border-left: 10px solid #e8663c;
+    margin-left: 50px;
+    padding-left: 20px;
+}
+.color p{
+    margin-top: 30px;
+}
+.color{
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+}
+.color:nth-child(9){
+    background-color: #effeb9;
+    border: 1px solid #98c601;
+    color: #98c601;
+}
+.color:nth-child(10){
+    background-color: #fbcbc1;
+    border: 1px solid #eb5439;
+    color: #eb5439;
+}
+.color:nth-child(11){
+    background-color: #ffe9ad;
+    border: 1px solid #fab418;
+    color: #fab418;
+}
+.color:nth-child(12){
+    background-color: #d1e4f3;
+    border: 1px solid #4d8fcb;
+    color: #4d8fcb;
+}
+#left{
+    padding-right: 50px;
+}
+.name{
+    display:inline-flex;
+    align-items: center;
+}
+.name h3{
+    color: #eb5439;
+    margin-right: 20px;
+}
+.gallery .name h3{
+    width: 100px;
+    margin-right: 0;
+}
+.row p{
+    margin-right: 10px;
+}
+#left p{
+    margin-bottom: 30px;
+}
+#right p{
+    margin: 0;
+}
+#right .item{
+    margin-bottom: 30px;
+}
+#right .name{
+    margin-bottom: 20px;
+}
+.window{
+    display: flex;
+    flex-direction: column;
+}
+.window img{
+    margin: 2px;
+}
+footer{
+    height: 265px;
+    width: 1400px;
+    margin: 40px auto 0 auto;
+    color: white;
+
+}
+footer .wrapper{
+    background-color: #e8663c;
+    height: 265px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    position: relative;
+}
+footer .line{
+    width: 940px;
+    height: 265px;
+    margin: 0 auto;
+    align-items: center;
+}
+footer .line .item{
+    width: 320px;
+}
+footer .sides div{
+    height: 265px;
+    margin: 0;
+    padding-bottom: 40px;
+}
+footer .sides div:first-child{
+    margin-right: 960px;
+}
+footer .text{
+    display: block;
+    height: 230px;
+}
+footer .text h1{
+    font-weight: lighter;
+}
+footer .item:nth-child(1){
+    margin-left: 37px;
+    width: 300px;
+}
+footer .item:nth-child(2){
+    margin: 0 40px;
+    width: 220px;
+}
+footer .item:nth-child(3){
+    width: 270px;
+}

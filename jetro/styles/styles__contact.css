@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans&display=swap');
+header{
+    width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+h1,h2,h3,h4{
+    font-family: 'Bebas Neue', cursive;
+    color: #eb5439;
+}
+footer h1{
+    color: white;
+}
+h3{
+    font-size: 18px;
+    margin: 5px 0 0 0;
+    color: #e8603c;
+}
+h4{
+    margin: 0;
+    font-size: 16px;
+}
+p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+
+}
+a{
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+}
+.wrapper{
+    width: 940px;
+    margin: 0 auto;
+}
+.nav{
+    display: inline-flex;
+    position: relative;
+}
+.nav a{
+    text-decoration: none;
+    margin-right: 30px;
+}
+.nav a p{
+    text-transform: uppercase;
+    color: #b9b9b9;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 0;
+    transition: 0.5s;
+}
+.nav a:last-child{
+    margin-right: 0;
+}
+.sides{
+    position: absolute;
+    display: flex;
+}
+.sides div{
+    background-color: rgba(255,110,0, 0.4);
+    width: 220px;
+    height: 61px;
+    margin-top: 80px;
+}
+header .sides div:first-child{
+    margin-right: 960px;
+}
+.bar{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.bar img{
+    padding-right: 455px;
+}
+.bar:nth-child(2){
+    background-color: orangered;
+    height: 61px;
+}
+.bar h1{
+    color: white;
+    padding-left: 20px;
+}
+.nav a:hover p{
+    color: #ff4500;
+}
+.item{
+    width: 220px;
+}
+.gallery{
+    width: 220px
+}
+.window .row{
+    width: 220px;
+}
+.window .row:nth-child(1){
+    margin-top: 20px;
+}
+.name{
+    display: inline-flex;
+    align-items: center;
+}
+.name h3{
+    margin-right: 20px;
+}
+.row{
+    display: inline-flex;
+    width: 940px;
+    justify-content: space-between;
+}
+footer{
+    height: 265px;
+    width: 1400px;
+    margin: 0 auto;
+    color: white;
+}
+.item h3,h4{
+    font-weight: lighter;
+}
+.item h4{
+    margin-bottom: 5px;
+}
+.inside{
+    justify-content: flex-start!important;
+}
+#form input{
+    width: 220px;
+    height: 30px;
+    border: 1px solid #e8603c;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+#form input::-webkit-input-placeholder{
+    color: #e8603c;
+    font-family: 'Bebas Neue', cursive;
+}
+textarea{
+    border: 1px solid #e8603c;
+    border-radius: 3px;
+    width: 450px;
+    height: 200px;
+    line-height: 200px;
+    text-align: start;
+    resize: none;
+    font-family: 'Bebas Neue', cursive;
+}
+textarea::-webkit-input-placeholder{
+    color: #e8603c;
+    font-family: 'Bebas Neue', cursive;
+    padding: 3px 10px 10px 0;
+}
+#form input[type=submit]{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    background-color: #e8663c;
+    width: 70px;
+    height: 30px;
+    border-radius: 0;
+}
+#left{
+    width: 675px;
+}
+footer{
+    height: 265px;
+    width: 1400px;
+    margin: 0 auto;
+    color: white;
+}
+footer .wrapper{
+    background-color: #e8663c;
+    height: 300px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    position: relative;
+}
+footer .line{
+    width: 940px;
+    height: 265px;
+    margin: 0 auto;
+    align-items: center;
+}
+footer .line .item{
+    width: 320px;
+}
+footer .sides div{
+    height: 300px;
+    margin: 0;
+    padding-bottom: 40px;
+}
+footer .sides div:first-child{
+    margin-right: 960px;
+}
+footer .text{
+    display: block;
+    height: 230px;
+}
+footer .text h1{
+    font-weight: lighter;
+}
+footer .item{
+    border: none;
+}
+footer .item:nth-child(1){
+    margin-left: 37px;
+    width: 300px;
+}
+footer .item:nth-child(2){
+    margin: 0 40px;
+    width: 220px;
+}
+footer .item:nth-child(3){
+    width: 270px;
+}

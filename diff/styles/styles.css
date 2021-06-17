@@ -1,0 +1,322 @@
+html{
+    font-family: Bahnschrift;
+}
+h1{
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header a{
+    color:white;
+}
+header{
+    width: 1600px;
+    height: 900px;
+    margin: 0 auto;
+    background: url("../images/bg1.png");
+}
+.container{
+    width: 1500px;
+    height: 800px;
+    margin: 0 auto
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 200px;
+}
+.one{
+    display: flex;
+    color: white;
+    font-size: 29px;
+    text-transform: uppercase;
+    padding: 60px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.one p{
+    margin: 0;
+}
+.one img{
+    margin: 0;
+}
+.middle{
+    padding-top: 300px;
+}
+.middle > img{
+    padding-left: 110px;
+    position: absolute;
+}
+.bottom__social{
+    display: inline-flex;
+    align-items: center;
+    margin: 10px 0 0 150px;
+}
+.bottom__social a{
+    margin-right: 30px;
+}
+.introduction{
+    height: 780px;
+    width: 1600px;
+    background-color: #f7f7f1;
+    margin: 0 auto;
+}
+.hey{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 100px;
+}
+.hey img{
+    margin-right: 15px;
+}
+.hey h1{
+    margin: 0;
+}
+.text{
+    display: flex;
+}
+.text img{
+    position: absolute;
+    z-index: 2;
+}
+.text p{
+    position: relative;
+    z-index: 3;
+    font-size: 20px;
+    line-height: 40px;
+    margin-left: 600px;
+    margin-top: 60px;
+    width: 550px;
+}
+.checkThisOut{
+    height: 1800px;
+    width: 1600px;
+    margin: 0 auto;
+}
+.checkThisOut h1{
+    font-size: 40px;
+}
+.checkThisOut .container > h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 0 0 65px;
+    letter-spacing: 0.03em;
+}
+.item{
+    display: flex;
+
+}
+.texty{
+    position: relative;
+    z-index: 2;
+    font-weight: lighter;
+    right: 80px;
+}
+.texty h3{
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+.texty p{
+    margin: 0;
+}
+.item img{
+    position: absolute;
+    z-index: 1;
+    float: right;
+}
+.item:nth-child(2){
+    margin: 100px 0 0 600px;
+    padding-top: 50px;
+}
+.item:nth-child(4){
+    margin-top: -100px;
+    position: absolute;
+}
+.item:nth-child(4) .texty {
+    left: 330px;
+}
+.item:nth-child(5){
+    position: absolute;
+    right: 980px;
+    top: 2730px;
+    align-items: flex-end;
+}
+.item:nth-child(5) .texty{
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+.item:nth-child(7){
+    position: absolute;
+    right: 590px;
+    top: 3160px;
+    align-items: flex-end;
+}
+.item:nth-child(7) .texty{
+    bottom: 300px;
+}
+.item:nth-child(8){
+    position: absolute;
+    top: 3280px;
+    right: 1250px;
+    align-items: flex-end;
+}
+.item:nth-child(8) .texty{
+    bottom: 260px;
+    left: -30px;
+}
+.checkThisOut a{
+    text-decoration: none;
+    color: black;
+}
+#more{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 350px;
+}
+#more p{
+    margin: 0;
+}
+.clients{
+    background-color: #f7f7f1;
+    height: 1000px;
+    width: 1600px;
+    margin: 0 auto;
+}
+.clients h1{
+    font-size: 40px;
+    padding-right: 10px;
+}
+.clients .container > h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 0 0 25px;
+    letter-spacing: 0.0em;
+}
+.clients .container > img{
+    position: absolute;
+}
+#twitter{
+    margin-left: 170px;
+    margin-top: 200px;
+}
+#dia__line{
+    margin-left: 380px;
+    margin-top: 230px;
+}
+#wave{
+    right: 470px;
+    margin-top: 70px;
+}
+#behance{
+    right: 760px;
+    margin-top: 100px;
+}
+#evernote{
+    margin-top: 200px;
+    right: 360px;
+}
+#google{
+    margin-top: 500px;
+    right: 580px;
+}
+#apple{
+    margin-top: 400px;
+    left: 570px;
+}
+#microsoft{
+    margin-left: 170px;
+}
+.blog{
+    height: 1400px;
+}
+.blog h1{
+    font-size: 40px;
+    padding-right: 10px;
+}
+.blog .container .wrapper > h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 0 0 50px;
+    letter-spacing: 0.04em;
+}
+.left__sided{
+    display: flex;
+    flex-direction: row;
+
+}
+.left__sided > div{
+    width: 370px;
+    margin: 50px;
+}
+.left__sided:nth-child(5){
+    position: relative;
+    margin: 50px 0 0 400px;
+}
+#morePosts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 150px;
+
+}
+#morePosts p{
+    margin: 0;
+}
+.getInTouch{
+    background-color: #f7f7f1;
+    width: 1600px;
+    margin: 0 auto;
+}
+.getInTouch h1{
+    font-size: 40px;
+    padding-right: 10px;
+}
+.getInTouch .container .wrapper > h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 0 0 50px;
+    letter-spacing: 0.1em;
+}
+.mapper{
+    display: flex;
+}
+.inline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 150px 0 0 0;
+}
+.inline a{
+    margin-right: 10px;
+}
+footer{
+    margin: 0 auto;
+    width: 1600px;
+    height: 360px;
+    background: url("../images/bg2.png");
+    text-align: center;
+}

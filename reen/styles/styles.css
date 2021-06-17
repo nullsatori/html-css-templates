@@ -1,0 +1,318 @@
+
+h1{
+    margin: 0;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.land .thin .container{
+    justify-content: space-between;
+}
+.land .thin{
+    height: 40px;
+    width: 1900px;
+    background-color: #f5f7fa;
+    display: inline-flex;
+}
+.land .thin div{
+    display: inline-flex;
+    font-size: 12px;
+    padding-right: 50px;
+}
+.land .thin div:nth-child(2){
+    padding-right: 600px;
+}
+.land .thin div p{
+    align-self: center;
+    margin-bottom: 0;
+    color: #506a85;
+}
+.land .thin div img{
+    align-self: center;
+    margin-right: 10px;
+}
+.land .thin .social{
+    display: inline-flex;
+    align-self: center;
+    float: right;
+}
+.land .thin .social a{
+    margin-right: 10px;
+}
+.land .thick{
+    display: inline-flex;
+    width: 1900px;
+    height: 110px;
+    align-items: center;
+}
+.land .thick img{
+    align-self: center;
+}
+li a{
+    margin-right: 30px;
+    font-weight: bold;
+    color: #506a85;
+    font-size: 15px;
+}
+#search{
+    margin-left: 130px;
+}
+.nav{
+    display: inline-flex;
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+.land .main{
+    overflow: hidden;
+    background: url(../images/bg1.png);
+    margin: 0 auto;
+    background-size: cover;
+    width: 1900px;
+    height: 880px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.land .main h1{
+    color: white;
+    font-size: 78px;
+    line-height: 88px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    scroll-behavior: revert;
+}
+.land .main > p{
+    color: #a3b1bf;
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+}
+
+.button{
+    background-color: #00bc9c;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    letter-spacing: 0.025em;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 4px;
+    border-bottom: 2px solid #00a085;
+    overflow-y: hidden;
+    text-decoration: none;
+}
+.button:hover{
+    text-decoration: none;
+    -webkit-transition: .2s ease-in-out;
+    background-color: #00a085;
+    border-bottom: 2px solid #028972;
+}
+.land .main .button {
+    width: 290px;
+    height: 55px;
+}
+.button p{
+    margin: 0;
+}
+.text{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.text h1{
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 54px;
+    letter-spacing: 0.01em;
+    color: #506a85;
+    overflow-y: hidden;
+    padding-bottom: 30px;
+}
+.text p{
+    font-size: 22px;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    color: #73879c;
+}
+.info .pics{
+    display: inline-flex;
+    flex-direction: row;
+    padding-bottom: 160px;
+}
+.wrap{
+    display: flex;
+}
+.info .wrap img{
+    align-self: flex-start;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+ .item{
+     width: 270px;
+ }
+footer .item{
+    width: 340px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.item p{
+    font-size: 16px;
+    color: #73879c;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+}
+footer .item p,a{
+    color: #a3b1bf;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+footer .item h3{
+    color: white;
+    text-transform: uppercase;
+    font-family: "Franklin Gothic Medium";
+    letter-spacing: 0.1em;
+    font-size: 16px;
+    margin-top: 50px;
+}
+footer .item:first-child img{
+    margin-bottom: 10px;
+}
+.item h3{
+    margin: 0 0 10px 0;
+    color: #506a85;
+    font-size: 26px;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+}
+.gallery{
+    background-color: #f2f5f7;
+    height: 1300px;
+    width: 1900px;
+    margin: 0 auto;
+}
+.line{
+    display: inline-flex;
+}
+.line:nth-child(3){
+    margin-top: 80px;
+}
+.line:nth-child(3) img{
+    margin-right: 30px;
+}
+.card{
+    height: 500px;
+    width: 570px;
+    background-color: white;
+    text-align: center;
+    margin-right: 30px;
+    border-bottom: 2px solid #e6e9ed;
+    border-radius: 3px;
+}
+.card h3{
+    margin: 30px 0 0 0;
+    font-size: 20px;
+    color: #506a85;
+    letter-spacing: 0.02em;
+}
+.card p{
+    color: #73879c;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+}
+.getInTouch{
+    height: 450px;
+}
+.getInTouch .button{
+    height: 50px;
+    width: 150px;
+
+}
+.getInTouch .button p{
+    font-size: 15px;
+}
+.getInTouch .text{
+    padding-bottom: 20px;
+}
+footer{
+    background-color: #2f4052;
+    height: 450px;
+}
+.inline{
+    display: inline-flex;
+    text-align: center;
+}
+.inline p {
+    margin-bottom: 0;
+}
+.inline img{
+    align-self: center;
+    margin-right: 10px;
+}
+#gallery{
+    display: flex;
+}
+#gallery img{
+    padding: 5px;
+}
+#wrapper{
+    display:flex;
+    flex-direction: column;
+}
+#form input{
+    border: none;
+
+}
+#form input:first-child{
+    background-color: #4e5c6c;
+    padding-right: 100px;
+    position: absolute;
+    font-size: 14px;
+    width: 270px;
+    height: 40px;
+}
+#form input:nth-child(2){
+    position: absolute;
+    margin: 4px 0 5px 170px;
+    padding-bottom: 25px;
+    width: 90px;
+    font-size: 14px;
+    height: 30px;
+    border-bottom: 2px solid #00a085;
+}
+#form input::-webkit-input-placeholder{
+    color: #a3b1bf;
+}
+.bottom{
+    background-color: #283645;
+    height: 85px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    color: #707e8c;
+}
+.bottom .inline{
+    align-items: center;
+}
+.bottom .nav{
+    margin-left: 400px;
+    margin-bottom: 0;
+}
+.bottom .nav a{
+    font-size: 14px;
+
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    font-weight: normal;
+}

@@ -1,0 +1,262 @@
+header{
+    width:1020px;
+    height: 60px;
+    background-color: #e2e2e2;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+header nav{
+    float: right;
+    text-align: center;
+    padding: 17px 0 0 0;
+    display: inline;
+
+}
+header img{
+    margin: 13px 0 0 25px;
+    height: 34px;
+    width: 120px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #4e4e4e;
+    font-weight: bold;
+    margin: 0 20px 0 40px;
+    font-size: 13px;
+
+}
+header nav li:nth-child(1){
+    margin: 0 0 0 340px;
+    color: red;
+}
+.icons{
+    display: inline-flex;
+    float: right;
+    padding-right: 60px;
+}
+.icons img{
+    object-fit: none;
+    width: 100%;
+}
+#up{
+    width: 1020px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #232629;
+}
+.menu{
+    display: inline-flex;
+    float: right;
+    width: 1020px;
+    height: 60px;
+    background-color: white;
+    justify-content: center;
+
+}
+.menu li {
+    float: left;
+    display: block;
+    font-size: 18px;
+    font-weight: lighter;
+}
+#small__image{
+    background: url(../images/small__image.png) no-repeat;
+    width: 1020px;
+    height: 180px;
+    position: relative;
+    margin-top: 65px;
+}
+.contact{
+    position: relative;
+    z-index: 1;
+    width: 940px;
+    height: 160px;
+    margin: -80px auto;
+    background-color: #232629;
+    text-align: left;
+    color: white;
+}
+.contact h1{
+    margin: 0;
+}
+.text{
+    position: absolute;
+    margin: 30px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+.text p{
+    color: #d1d0d0;
+}
+.wrap{
+    display: flex;
+    margin: 350px 0 0 500px;
+}
+.middle{
+    position: absolute;
+    right: 30%;
+}
+.master{
+    height: 550px;
+    width: 652px;
+}
+.dual{
+    display: inline-flex;
+}
+.dual__left{
+    margin-top: 20px;
+}
+.dual__left p{
+    font-size: 12px;
+    line-height: 20px;
+    color: #ea5a4b;
+}
+.dual__left h3{
+    font-size: 14px;
+    line-height: 20px;
+    margin: 5px 0 5px 0;
+}
+.dual__right{
+    width: 485px;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 25px 0 0 80px;
+}
+.wide__line{
+    width: 660px;
+    height: 4px;
+    background-color: #ea5a4b;
+}
+.right{
+    right: -49%;
+    height: 600px;
+    width: 200px;
+    position: relative;
+}
+.item{
+    width: 200px;
+    height: 150px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.item h3{
+    font-size: 16px;
+    margin: 0;
+}
+.item p{
+    margin-top: 10px;
+}
+.short__line{
+    width: 200px;
+    height: 5px;
+    background-color: #ea5a4b;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.row{
+    display:inline-flex;
+}
+.theme{
+    z-index: 2;
+    height: 1550px;
+    width: 940px;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+}
+footer{
+    z-index: 1;
+    width: 1020px;
+    height: 363px;
+    position: absolute;
+    margin: -50px auto;
+    background: url('../images/bg2.png');
+    left: 0;
+    right: 0;
+    color: white;
+
+
+}
+.column{
+    width: 300px;
+    height: 250px;
+    margin-left: 50px;
+    padding-top: 30px;
+}
+.column h3{
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    font-weight: bold;
+}
+.column:nth-child(1) p{
+    width: 270px;
+    height: 67px;
+    padding-right: 50px;
+
+}
+.column:nth-child(1) p:nth-child(4){
+    padding-top: 20px;
+}
+.column p{
+    font-size: 14px;
+    color: #adadad;
+    padding: 10px 10px 10px 0;
+    margin: 0;
+}
+.column a{
+    color: #adadad;
+}
+#wrapper{
+    display: inline-flex;
+    margin: 0 auto;
+}
+.column:nth-child(1) p:nth-child(3){
+    border-top: 2px solid #3b3b3b;
+    border-bottom: 2px solid #3b3b3b;
+}
+.column:nth-child(1) p:nth-child(4){
+    border-bottom: 2px solid #3b3b3b;
+}
+.column:nth-child(3){
+    margin: 0 0 0 10px;
+}
+footer img{
+    padding: 2px 2px 2px 0;
+}
+.inline__numbers{
+    margin-top: 10px;
+    display: inline-flex;
+    position: relative;
+    font-weight: bold;
+}
+.inline__numbers p{
+    color: black;
+    text-decoration: none;
+}
+.inline__numbers .button:first-child{
+    width: 20px;
+    height: 30px;
+
+}
+.inline__numbers a:first-child{
+    color: white;
+    background-color: #ea5a4b;
+}
+.inline__numbers a:first-child p{
+    color: white;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+#line{
+     width: 1020px;
+     height: 10px;
+     background-color: #ea5a4b;
+     margin: 0 auto;
+ }

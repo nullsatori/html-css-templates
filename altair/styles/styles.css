@@ -1,0 +1,246 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, label, p, blockquote, th, td {
+    margin:0;
+    padding:0;
+}
+h3{
+    padding-bottom: 30px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: white;
+}
+header{
+    width: 1350px;
+    height: 645px;
+    margin: 0 auto;
+}
+footer{
+    background-color: #3f3b48;
+    height: 100px;
+    font-family: 'Montserrat';
+    color: white;
+}
+.logo{
+    float: left;
+    margin-top: 20px;
+
+}
+.wrap{
+    width: 100%;
+    background-color: #f8f8f9;
+    background-size: cover;
+
+}
+.container{
+    width: 930px;
+    height: 645px;
+    margin: 0 auto;
+
+}
+nav{
+    float:right;
+    margin-top: 40px;
+}
+.menu{
+    padding: 0;
+    margin: 0 auto;
+
+}
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 35px;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.menu a {
+    color: #b4b4b4;
+    background-size: cover;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.frame__first{
+    background: url('../images/BG.png') no-repeat;
+    background-size: cover;
+    display: block;
+    position: relative; z-index: 2;
+    height: 817px;
+    background-size: 100%;
+}
+.wrapper{
+    background: url('../images/losers.png') center bottom no-repeat;
+    background-size: cover;
+    height: 1200px;
+    background-size: 100%;
+}
+.frame__second{
+
+    display: block;
+    position: relative; z-index: 3;
+    height: 817px;
+}
+.frame__third{
+    height: 960px;
+    display: block;
+    position: relative; z-index: 2;
+    background-color: #3f3b48;
+    top: -310px;
+}
+.frame__fourth{
+    height: 700px;
+}
+.item{
+    display: block;
+    position: absolute;
+    font-family: Arial;
+    color: white;
+    font-size: 12px;
+}
+.first{
+    width: 316.44px;
+    height: 94.09px;
+    padding-left: 400px;
+    padding-top: 64px;
+    color: #c1c1c3;
+    line-height: 20px;
+}
+.second{
+    left: 1190px;
+    top: 334px;
+    width: 500px;
+}
+.pagination{
+    position: relative;
+    left: 753px;
+    top: 40px;
+    width: 200px;
+}
+.work{
+    display: block;
+    margin: 0 auto;
+    padding: 95px;
+}
+.services{
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+}
+.services__item{
+    width: 282px;
+    float: left;
+    text-align: center;
+
+}
+.services__item h3{
+    color: black;
+    font-weight: bold;
+
+}
+.services__item p{
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 20px;
+}
+.services__item:last-child{
+    float: right;
+
+}
+.services__item:nth-child(2){
+    margin-left: 80px;
+}
+.fourth{
+    display: block;
+    margin: -200px auto;
+}
+.button{
+    background: red;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    width: 240px;
+    padding: 20px 0;
+    margin: -190px auto;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    font-size: 16px;
+}
+.thirdimage{
+    display: block; margin: 0 auto;
+}
+.footer__copyright{
+    display: inline-block;
+    align: left;
+    margin-top: 40px;
+    margin-left: 433px;
+}
+.follow{
+    display: inline-block;
+    align: right;
+    margin-left: 350px;
+}
+.social__media{
+    display:inline-grid;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#home{
+    color: black;
+}
+#text{
+    margin-top: 55px;
+}
+#phone{
+    display: block;
+    position: relative;
+    float: bottom;
+    margin: 73px auto;
+    z-index: 2;
+
+}
+#mountain{
+    position: relative;
+    margin: 0 auto;
+    bottom: 250px;
+    right: 100px;
+    z-index: 1;
+}
+#clients{
+    display: block;
+    margin: 300px 450px;
+    z-index: 3;
+}
+#circles{
+    display: block;
+    margin: -510px auto;
+    z-index: 2;
+}
+#mountain2{
+    position: relative;
+    margin: 0 auto;
+    bottom: 580px;
+    right: 50px;
+    z-index: 0;
+}
+
+
+#iphone__second{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+#gallery a{
+    display: block;
+    color:white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: right;
+    padding-top: 40px;
+    padding-right: 380px;
+}

@@ -1,0 +1,353 @@
+*{
+    font-family: Lato;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+header{
+    background: url(../images/bg.png);
+    width: 1600px;
+    height: 1000px;
+    margin: 0 auto;
+}
+header p{
+    text-transform: uppercase;
+    color: white;
+}
+#first p{
+    font-size: 60px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+#first{
+    width: 780px;
+    height: 60px;
+    margin: 0 auto;
+    padding: 440px 0;
+}
+header a{
+    width: 185px;
+    height: 50px;
+
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    width: 185px;
+    height: 50px;
+    border: 2px solid white;
+    padding: 0;
+    margin: -330px auto;
+    transition: 0.5s;
+}
+.button a{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+.button:hover{
+    background: white;
+}
+.button:hover p{
+    color: black;
+}
+.thin{
+    height: 420px;
+    width: 1600px;
+    margin: 0 auto;
+}
+.heading{
+    width: 1600px;
+    height: 70px;
+    display: inline-flex;
+    background: #252e30;
+    align-items: center;
+    justify-content: center;
+}
+.heading a {
+    margin-right: 30px;
+    transition: 0.3s;
+}
+.heading img{
+    right: 10px;
+    position: relative;
+}
+.heading, .button a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+
+    font-weight: bold;
+    transition: 0.3s;
+}
+.heading a:hover{
+    color: green;
+
+}
+.navigator{
+    position: relative;
+    left: 150px;
+}
+.question{
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    margin: 75px 0 0 300px;
+}
+.question .item{
+    margin-right: 50px;
+}
+.item p{
+    line-height: 30px;
+    font-size: 18px;
+    color: #919191;
+}
+.item h1{
+    font-size: 30px;
+    color: #566366;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.wrapper{
+    display:flex;
+    width: 1600px;
+    margin: 0 auto;
+}
+.flex{
+    background: #f2f2f1;
+    width: 990px;
+    padding: 75px 0 0 150px;
+}
+.flex h1{
+    margin-bottom: 45px;
+}
+.line{
+    display: inline-flex;
+    flex-direction: row;
+}
+.flex .flex{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 100px;
+    position: relative;
+    left: -150px;
+}
+.flex .flex .item{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 350px;
+    margin: 0 50px 0 0;
+}
+.flex .flex .line:nth-child(2){
+    margin-top: 50px;
+}
+.flex .flex .item div{
+    margin-left: 50px;
+    width: 240px;
+}
+.flex .flex .item h1{
+    font-size: 22px;
+    margin: 0;
+}
+.flex .flex .item p{
+    font-size: 18px;
+}
+.skills{
+    margin: 0 auto;
+    width: 1600px;
+    min-height: 620px;
+}
+.green{
+    border: 2px solid green;
+    margin: 50px 0 0 0;
+}
+.green a p{
+    color: green;
+    margin: 23px 0 0 0;
+    width: 175px;
+    height: 55px;
+}
+.green:hover{
+    background-color: green;
+}
+.green:hover a p{
+    color: white;
+}
+.skills .item:nth-child(1){
+    width: 600px;
+    margin: 100px 0 0 200px;
+}
+.skills .wrapper .item:nth-child(2){
+    margin: 100px 0 0 100px;
+}
+.resume{
+    width: 1600px;
+    height: 440px;
+    background: #f2f2f1;
+    margin: 0 auto;
+}
+.resume .green p{
+    margin-top: 40px;
+    font-weight: bolder;
+}
+.resume .green{
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+}
+.text > p{
+    color: #919191;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+.resume h1{
+    color: #566366;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 100px;
+}
+.arrow-down {
+    width: 0;
+    height: 0;
+    position: relative;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #f2f2f1;
+    margin: 150px auto;
+}
+.box{
+    height: 230px;
+    width: 560px;
+}
+.box > p{
+    color: #919191;
+    font-size: 18px;
+    line-height: 30px;
+}
+.diploma{
+    width: 1600px;
+    margin: 0 auto;
+}
+.diploma .wrapper{
+    height: 870px;
+    width: 1160px;
+    border-bottom: 1px solid #cccccc;
+    margin-left: 240px;
+}
+.diploma .wrapper > .item{
+    width: 550px;
+    padding-top: 75px;
+
+}
+.diploma h2{
+    font-size: 22px;
+    color: #566366;
+    text-transform: uppercase;
+    margin-top: 145px;
+}
+.diplomas{
+    padding-left: 50px;
+}
+.college{
+    height: 130px;
+    width: 560px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 20px;
+}
+.diploma .work{
+    height: 1200px;
+    border: none;
+    margin-bottom: 100px;
+}
+.work .diplomas{
+    height: 1130px;
+}
+.quote{
+    background-color: #f2f2f1;
+    height: 415px;
+    width: 1600px;
+    margin: 0 auto;
+}
+.portfolio{
+    width: 1600px;
+    height: 1400px;
+    margin: 0 auto;
+}
+.photos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photos img{
+    margin: 15px;
+}
+footer{
+    background-color: #252e30;
+    margin: 0 auto;
+    width: 1600px;
+    height: 900px;
+}
+footer .item{
+    padding: 50px 50px 50px 230px;
+}
+footer .item p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #919191;
+    width: 560px;
+}
+footer label{
+    color: white;
+    padding: 10px 0;
+}
+footer input{
+    background-color: #4b5456;
+    border: none;
+    width: 530px;
+    height: 40px;
+    margin: 10px 0 40px 0;
+}
+footer input:nth-child(11){
+    height: 250px;
+}
+p span{
+    color: white;
+}
+footer .button{
+    margin: 0;
+    color: white;
+    font-family: Calibri;
+    text-transform: uppercase;
+    background-color: #191f21;
+    border: #191f21;
+}
+footer .button:hover{
+    background-color: #4b5456;
+}
+.under{
+    background-color: #191f21;
+    text-align: center;
+    width: 1600px;
+    height: 200px;
+}
+.under .item{
+    padding: 60px 0;
+    margin: 0;
+}
+.under .item p{
+    padding: 0;
+    margin: 10px auto;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #566366;
+}
+.under .item a{
+    margin-right: 10px;
+    margin-top: 10px;
+}

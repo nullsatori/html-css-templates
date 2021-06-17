@@ -1,0 +1,321 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, label, p, blockquote, th, td {
+    margin:0;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+    padding:0;
+
+}
+.wide{
+    display: block;
+    width: 1600px;
+    height: 750px;
+    margin: 0 auto;
+}
+.thin{
+
+    width: 1600px;
+    height: 500px;
+    margin: 0 auto;
+}
+#first{
+    background-image: url(../images/BG.png);
+    background-size: cover;
+    height: 900px;
+}
+#first div{
+    width: 1600px;
+    height: 900px;
+    padding-top: 250px;
+}
+.wide h1{
+    font-size: 48px;
+    text-transform: uppercase;
+
+    text-align: center;
+}
+.wide p{
+    text-align: center;
+    font-size: 22px;
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+#first p{
+    color: white;
+}
+#first h1{
+    color: white;
+}
+.thin h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 110px;
+    text-transform: uppercase;
+}
+.thin p{
+    font-size: 22px;
+    text-align: center;
+    font-weight: lighter;
+    width: 790px;
+    margin: 0 auto;
+}
+
+#third{
+    background: url(../images/[IMG].png);
+    background-size: cover;
+}
+#fifth{
+    background: url(../images/[IMG2].png);
+    background-size: cover;
+}
+#sixth{
+    background-color: #f4f4f4;
+    text-align: center;
+}
+#video{
+    background: url(../images/vid.png);
+    background-size: cover;
+}
+#sixth h1{
+    font-size: 30px;
+    padding: 70px 0 70px 0;
+}
+#sixth img{
+    padding-bottom: 100px;
+}
+#hire{
+    border: 1px solid black;
+    margin-top: 9px;
+}
+#imac{
+    background: url(../images/[IMG3].png);
+    background-size: cover;
+    margin-top: 50px;
+}
+#forms{
+    background: url(../images/Rectangle3.png);
+    background-size: cover;
+}
+#seventh h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 110px;
+    text-transform: uppercase;
+}
+#seventh p{
+    font-size: 22px;
+    text-align: center;
+    font-weight: lighter;
+    width: 790px;
+    margin: 0 auto;
+}
+#fourth{
+    width: 1600px;
+    margin:0 auto;
+    height: 1250px;
+}
+#fourth h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 50px 0 50px 0;
+}
+#fourth nav{
+    padding: 50px 0 50px 540px;
+    float: left;
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    flex-warp: wrap;
+    padding: 0 240px;
+
+}
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 35px;
+    font-size: 18px;
+    font-weight: lighter;
+
+}
+nav a{
+    text-decoration: none;
+    color: #4e4e4e;
+    font-weight: lighter;
+}
+#choose > h1{
+    padding-top: 100px;
+}
+#choose > p{
+    padding-bottom: 100px;
+}
+.column{
+    flex: 50%;
+    padding: 0 10px;
+}
+.wrapper{
+    width: 350px;
+    text-align: center;
+}
+.perfect h1{
+    font-size: 24px;
+    font-weight: lighter;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.perfect p{
+    font-size: 16px;
+    width: 250px;
+
+}
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+
+.button{
+    position: absolute;
+    background: none;
+    border-radius: 6px;
+    display: block;
+    width: 240px;
+    text-decoration: none;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    font-weight: lighter;
+    font-size: 30px;
+    padding: 25px 50px 25px 50px;
+    font-weight: bolder;
+    margin-left: 650px;
+    margin-top: 200px;
+}
+.temp{
+    text-align: center;
+    margin: 0 auto;
+}
+#menu{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+#line{
+    display: block;
+    margin: 45px auto;
+}
+.second__line{
+    display: block;
+    margin: 50px auto 50px auto;
+}
+#third__line{
+    display: block;
+    margin: 0 auto;
+}
+#fourth__line{
+    display: block;
+    margin: 50px auto;
+}
+#home{
+    color: black;
+    font-weight: bold;
+}
+#second__button{
+    position: absolute;
+    color: black;
+    border: 2px solid black;
+    border-radius: 0px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 690px;
+    font-size: 24px;
+}
+#fifth__button{
+    position: absolute;
+    color: black;
+    border: 2px solid black;
+    border-radius: 0px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+    font-size: 24px;
+}
+#fourth__button{
+    color: black;
+    border: 2px solid black;
+    border-radius: 0px;
+    padding: 5px 10px 5px 10px;
+    margin: 0 0 0 35px;
+    width: 180px;
+}
+#hire{
+    height: 360px;
+    width: 270px;
+}
+#iphone{
+    margin: -11px auto;
+}
+#laptop{
+    margin: -2px auto;
+}
+#info{
+    float:left;
+    padding-left: 215px;
+}
+#info h1{
+    padding-right: 20px;
+}
+#info p{
+    width:230px;
+    font-weight: lighter;
+    line-height: 40px;
+    padding-top: 30px;
+    text-align: left;
+}
+#form{
+    float: right;
+    padding-right: 240px;
+    padding-top: 80px;
+}
+.first__input{
+    border: none;
+    height: 50px;
+    width: 270px;
+    border-bottom: 2px solid grey;
+    background-color: #e4e4e4;
+    margin-left: 50px;
+}
+#message{
+    border: none;
+    height: 50px;
+    width: 605px;
+    border-bottom: 2px solid grey;
+    background-color: #e4e4e4;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+input:placeholder-shown{
+    font-style: italic;
+    padding-left: 10px;
+    font-size: 14px;
+}
+footer{
+    background: url(../images/footer.png);
+    margin: 0 auto;
+    width: 1600px;
+    height: 360px;
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding-top: 250px;
+    font-family: Geneva,Tahoma,Verdana,sans-serif;
+}
+footer div{
+    position: relative;
+}

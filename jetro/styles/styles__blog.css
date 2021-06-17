@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans&display=swap');
+header{
+    width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+h1,h2,h3{
+    font-family: 'Bebas Neue', cursive;
+    color: #eb5439;
+}
+footer h1{
+    color: white;
+}
+h3{
+    font-size: 18px;
+    margin: 0;
+
+}
+p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    width: 940px;
+    margin: 0 auto;
+}
+.nav{
+    display: inline-flex;
+    position: relative;
+}
+.nav a{
+    text-decoration: none;
+    margin-right: 30px;
+}
+.nav a p{
+    text-transform: uppercase;
+    color: #b9b9b9;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 0;
+    transition: 0.5s;
+}
+.nav a:last-child{
+    margin-right: 0;
+}
+.sides{
+    position: absolute;
+    display: flex;
+}
+.sides div{
+    background-color: rgba(255,110,0, 0.4);
+    width: 220px;
+    height: 61px;
+    margin-top: 80px;
+}
+header .sides div:first-child{
+    margin-right: 960px;
+}
+.bar{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.bar img{
+    padding-right: 455px;
+}
+.bar:nth-child(2){
+    background-color: orangered;
+    height: 61px;
+}
+.bar h1{
+    color: white;
+    padding-left: 20px;
+}
+.nav a:hover p{
+    color: #ff4500;
+}
+.wrap{
+    align-items: flex-start;
+    flex-direction: column;
+    width: 510px!important;
+    position: relative;
+    right: 107px;
+}
+#right{
+    margin-left: 105px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.wrap > img{
+    margin: 30px 10px 0 -85px
+}
+.quote{
+    width: 655px;
+    height: 75px;
+    background-color: #f2f2f2;
+    margin: 0;
+    margin-bottom: 10px;
+    display: inline-flex;
+    align-items: center;
+    text-align: left;
+}
+.quote p{
+    font-size: 12px;
+    margin: 30px auto;
+}

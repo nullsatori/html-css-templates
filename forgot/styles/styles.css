@@ -1,0 +1,184 @@
+*{
+    font-family: Ebrima;
+
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    margin: 0 auto;
+    background: url(../images/Background.png);
+    width: 1600px;
+    height: 923px;
+}
+.navig #logo{
+    font-size: 35px;
+    color: #f39c12;
+}
+.navig{
+    display: flex;
+    text-transform: uppercase;
+    width: auto;
+    padding-top: 50px;
+    margin: 0px auto;
+}
+.navig a{
+    margin-right: 60px;
+    color: #aaadb0;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    letter-spacing: 0.12em;
+}
+.navig nav{
+    display: inline-flex;
+    align-items: center;
+
+}
+.info{
+    margin: 0 auto;
+    width: 1600px;
+}
+.inline__info{
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.inline__info img{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+#wrap{
+    margin-left: 350px;
+}
+#wrap h1{
+    font-weight: lighter;
+}
+#wrap p{
+    font-size: 16px;
+}
+.circle{
+    background: url(../images/bg1.png);
+    height: 776px;
+    width: 1600px;
+    margin: 0 auto;
+}
+.circle p{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+.register{
+    padding-top: 450px;
+}
+#green__button{
+    width: 200px;
+}
+.button{
+    font-size: 24px;
+    color: #2ecc71;
+    border: 3px solid #2ecc71;
+    border-radius: 30px;
+    width: 200px;
+    margin: 0 auto;
+    height: 50px;
+}
+.button p{
+    font-family: Calibri;
+    margin: 8px;
+    color: #2ecc71;
+    font-weight: bold;
+}
+.testimonials{
+    margin: 0 auto;
+    width: 1600px;
+}
+.human{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 210px;
+    margin-top: 20px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10px;
+}
+.name h3{
+    margin: 0;
+}
+.name p{
+    margin: 0;
+    color: #898989;
+}
+.interview{
+    margin: 100px auto;
+}
+.interview:nth-child(2){
+    margin-left: 300px;
+}
+.interview:nth-child(3){
+    margin-left: 900px;
+    top: 270%;
+    position: absolute;
+}
+.interview:nth-child(4){
+    margin-left: 300px;
+}
+footer{
+    background: url(../images/Map.png);
+    width: 1600px;
+    height: 760px;
+    margin: 0 auto;
+}
+footer p{
+    color: white;
+}
+#small__logo{
+    text-transform: uppercase;
+    color: #f39c12;
+    font-size: 24px;
+    line-height: 21px;
+    font-family: LATO;
+
+}
+.wrapper{
+    margin: 0px auto;
+    padding: 300px 0 0 300px;
+    display: inline-flex;
+}
+.links nav{
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+}
+.links nav a{
+    color: white;
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+.subscription{
+    margin-left: 200px;
+}
+.subscription input{
+    background: transparent;
+    border: none;
+    color: white;
+}
+.subscription input:nth-child(1){
+    border-bottom: 1px solid #a1a1a1;
+    width: 430px;
+    padding: 10px 0;
+}
+.subscription input::-webkit-input-placeholder{
+
+}
+.subscription p{
+    font-size: 30px;
+    font-family: "Lato Hairline";
+    letter-spacing: -0.05em;
+}

@@ -1,0 +1,194 @@
+html{
+    font-family: Lato;
+}
+header{
+    background: url(../images/bg1.png);
+    width: 1600px;
+    height: 880px;
+    margin: 0 auto;
+    text-align: center;
+}
+footer{
+    height: 95px;
+    width: 1600px;
+    margin: 0 auto;
+    vertical-align: center;
+    background-color: #f7f7f7;
+}
+footer div p {
+    color: #8b8b8b;
+    font-size: 14px;
+}
+footer div{
+    padding-top: 40px;
+}
+footer div:nth-child(2){
+    float:right;
+    padding-right: 320px;
+}
+footer div:first-child{
+    float:left;
+    padding-left: 320px;
+}
+.thin{
+    height: 440px;
+    width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.upper{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+.third{
+    background: url(../images/iphone__bg.png);
+    width: 1600px;
+    height: 860px;
+    margin: 0 auto;
+    text-align: center;
+}
+.wrap{
+    display: inline;
+    width: 1600px;
+    white-space:nowrap;
+}
+.wrap div{
+    width:200px;
+    display:inline-block;
+
+}
+.info h1{
+    margin: 50px 0 0 0;
+}
+.info p{
+    font-weight: lighter;
+    font-size: 16px;
+    margin-bottom: 90px;
+}
+#quote{
+    background: url(../images/bg2.png);
+    position: relative;
+    width: 1600px;
+    height: 462px;
+    color: white;
+}
+#human{
+    padding-top: 85px;
+}
+#quote h2{
+    font-weight: lighter;
+    font-size: 30px;
+    line-height: 36px;
+    width: 1180px;
+    margin: 20px auto;
+    margin-bottom: 0;
+    color: rgba(255,255,255,0.4)
+}
+#quote p{
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 36px;
+    width: 1180px;
+    margin: 10px auto;
+    color: rgba(255,255,255,0.4)
+}
+#food{
+    height: 750px;
+}
+#food h3{
+    margin: 0;
+    padding: 70px 0 0 0;;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+}
+#food .column{
+    padding: 0;
+    margin: 0;
+
+}
+#food .gallery{
+    padding-left: 0;
+}
+.app{
+    text-align: left;
+    float: right;
+    padding: 180px;
+}
+.app p{
+    width: 540px;
+    line-height: 18px;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+.app h3{
+    font-size: 18px;
+}
+.menu{
+    float:right;
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.menu a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+.menu img{
+    padding-bottom: 4px;
+}
+.button{
+    background-color: transparent;
+    border-radius: 3px;
+    display: block;
+    width: 250px;
+    padding: 18px 5px 18px 5px;
+    text-decoration: none;
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid white;
+    color: white;
+    font-weight: lighter;
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 0 auto;
+
+}
+.column{
+    flex: 50%;
+    padding: 0 10px;
+}
+.wrapper{
+    width: 350px;
+    text-align: center;
+    padding-top: 90px;
+}
+.perfect h1{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.perfect p{
+    font-size: 16px;
+    width: 250px;
+    margin: 0 auto;
+    font-weight: lighter;
+}
+.perfect{
+    padding-top: 10px;
+}
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+}
+.gallery{
+    display: flex;
+    flex-warp: wrap;
+    padding: 0 240px;
+}
